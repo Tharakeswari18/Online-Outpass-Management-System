@@ -15,7 +15,9 @@ Wardens and HODs can view pending leave requests for their department or hostel.
 Validation: Ensures all form inputs are properly validated using express-validator.
 Date Management: Handles and displays dates elegantly using the Moment.js library.
 Dynamic Views: Powered by EJS for responsive, dynamic templates.
+
 Technologies Used
+
 Node.js: Backend runtime.
 Express.js: Web framework.
 MongoDB: Database for storing users, leave requests, and other data.
@@ -23,7 +25,9 @@ Mongoose: ORM for MongoDB.
 Passport.js: Authentication middleware.
 Moment.js: Date and time management.
 EJS: Template engine for rendering views.
+
 Installation and Setup
+
 Prerequisites
 Ensure you have the following installed on your system:
 
@@ -85,13 +89,17 @@ LeaveApp/
 ├── app.js           # Main entry point of the application
 ├── package.json     # Project metadata and dependencies
 └── package-lock.json
+
 Usage
+
 Students:
 Register and log in.
 Apply for leave, view leave history, and profile.
+
 Wardens:
 View pending leave requests from students in their hostel.
 Approve or reject leave applications.
+
 HODs:
 View department-wise leave requests.
 Approve or reject leave applications.
