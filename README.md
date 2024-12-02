@@ -6,8 +6,11 @@ A web-based Leave Management System designed for students, wardens, and HODs to 
 Features
 
 User Authentication: Supports role-based login for students, wardens, and HODs using Passport.js.
+
 Leave Requests:
+
 Students can apply for leave.
+
 Wardens and HODs can view, approve, or reject leave requests.
 Role-Specific Dashboards:
 Students can view their profile, leave status, and apply for leave.
