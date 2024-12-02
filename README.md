@@ -5,38 +5,52 @@ A web-based Leave Management System designed for students, wardens, and HODs to 
 
 Features
 
-User Authentication: Supports role-based login for students, wardens, and HODs using Passport.js.
+*User Authentication: Supports role-based login for students, wardens, and HODs using Passport.js.
 
-Leave Requests:
+*Leave Requests:
 
-Students can apply for leave.
+*Students can apply for leave.
 
-Wardens and HODs can view, approve, or reject leave requests.
+*Wardens and HODs can view, approve, or reject leave requests.
+
 Role-Specific Dashboards:
-Students can view their profile, leave status, and apply for leave.
-Wardens and HODs can view pending leave requests for their department or hostel.
-Validation: Ensures all form inputs are properly validated using express-validator.
-Date Management: Handles and displays dates elegantly using the Moment.js library.
-Dynamic Views: Powered by EJS for responsive, dynamic templates.
+
+*Students can view their profile, leave status, and apply for leave.
+
+*Wardens and HODs can view pending leave requests for their department or hostel.
+
+*Validation: Ensures all form inputs are properly validated using express-validator.
+
+*Date Management: Handles and displays dates elegantly using the Moment.js library.
+
+*Dynamic Views: Powered by EJS for responsive, dynamic templates.
 
 Technologies Used
 
-Node.js: Backend runtime.
-Express.js: Web framework.
-MongoDB: Database for storing users, leave requests, and other data.
-Mongoose: ORM for MongoDB.
-Passport.js: Authentication middleware.
-Moment.js: Date and time management.
-EJS: Template engine for rendering views.
+*Node.js: Backend runtime.
+
+*Express.js: Web framework.
+
+*MongoDB: Database for storing users, leave requests, and other data.
+
+*Mongoose: ORM for MongoDB.
+
+*Passport.js: Authentication middleware.
+
+*Moment.js: Date and time management.
+
+*EJS: Template engine for rendering views.
 
 Installation and Setup
 
 Prerequisites
+
 Ensure you have the following installed on your system:
 
 Node.js (v14 or above)
 MongoDB (local or cloud-based like MongoDB Atlas)
 Steps to Run the Project
+
 Clone the Repository:
 
 bash
