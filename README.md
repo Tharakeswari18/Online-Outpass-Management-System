@@ -3,83 +3,91 @@ This Outpass Management System is designed for educational institutions to manag
 Leave Management System
 A web-based Leave Management System designed for students, wardens, and HODs to manage leave requests in a seamless and structured way.
 
-Features
+**Features**
 
-*User Authentication: Supports role-based login for students, wardens, and HODs using Passport.js.
+ *User Authentication: Supports role-based login for students, wardens, and HODs using Passport.js.
 
-*Leave Requests:
+ *Leave Requests:
 
-*Students can apply for leave.
+ *Students can apply for leave.
 
-*Wardens and HODs can view, approve, or reject leave requests.
+ *Wardens and HODs can view, approve, or reject leave requests.
 
-Role-Specific Dashboards:
+**Role-Specific Dashboards:**
 
-*Students can view their profile, leave status, and apply for leave.
+ *Students can view their profile, leave status, and apply for leave.
 
-*Wardens and HODs can view pending leave requests for their department or hostel.
+ *Wardens and HODs can view pending leave requests for their department or hostel.
 
-*Validation: Ensures all form inputs are properly validated using express-validator.
+ *Validation: Ensures all form inputs are properly validated using express-validator.
 
-*Date Management: Handles and displays dates elegantly using the Moment.js library.
+ *Date Management: Handles and displays dates elegantly using the Moment.js library.
 
-*Dynamic Views: Powered by EJS for responsive, dynamic templates.
+ *Dynamic Views: Powered by EJS for responsive, dynamic templates.
 
-Technologies Used
+**Technologies Used**
 
-*Node.js: Backend runtime.
+ *Node.js: Backend runtime.
 
-*Express.js: Web framework.
+ *Express.js: Web framework.
 
-*MongoDB: Database for storing users, leave requests, and other data.
+ *MongoDB: Database for storing users, leave requests, and other data.
 
-*Mongoose: ORM for MongoDB.
+ *Mongoose: ORM for MongoDB.
 
-*Passport.js: Authentication middleware.
+ *Passport.js: Authentication middleware.
 
-*Moment.js: Date and time management.
+ *Moment.js: Date and time management.
 
-*EJS: Template engine for rendering views.
+ *EJS: Template engine for rendering views.
 
-Installation and Setup
+**Installation and Setup**
 
-Prerequisites
+**Prerequisites**
 
 Ensure you have the following installed on your system:
 
-Node.js (v14 or above)
-MongoDB (local or cloud-based like MongoDB Atlas)
-Steps to Run the Project
+->Node.js (v14 or above)
 
-Clone the Repository:
+->MongoDB (local or cloud-based like MongoDB Atlas)
 
-bash
-Copy code
-git clone https://github.com/yourusername/LeaveApp.git
-cd LeaveApp
-Install Dependencies:
+->Steps to Run the Project
 
-bash
-Copy code
-npm install
-Configure Environment Variables:
+**Clone the Repository:**
+
+->bash
+
+->Copy code
+
+->git clone https://github.com/yourusername/LeaveApp.git
+
+->cd LeaveApp
+
+**Install Dependencies:**
+
+-> bash
+->Copy code
+->npm install
+->Configure Environment Variables:
 
 Create a .env file in the root directory.
-Add the following variables:
-makefile
-Copy code
-DATABASE_URL=mongodb://localhost:27017/LeaveApp
-SESSION_SECRET=your_secret_key
-Start the Server:
 
-bash
-Copy code
-node app.js
-The server will start on http://localhost:3005.
+Add the following variables:
+->makefile
+->Copy code
+->DATABASE_URL=mongodb://localhost:27017/LeaveApp
+->SESSION_SECRET=your_secret_key
+
+**Start the Server:**
+
+->bash
+->Copy code
+->node app.js
+->The server will start on http://localhost:3005.
 
 Access the Application: Open your browser and go to http://localhost:3005.
 
-Project Structure
+**Project Structure**
 bash
 Copy code
 LeaveApp/
@@ -107,20 +115,25 @@ LeaveApp/
 ├── package.json     # Project metadata and dependencies
 └── package-lock.json
 
-Usage
+**Usage**
 
-Students:
+**Students:**
 Register and log in.
+
 Apply for leave, view leave history, and profile.
 
-Wardens:
+**Wardens:**
 View pending leave requests from students in their hostel.
+
 Approve or reject leave applications.
 
-HODs:
+**HODs:**
 View department-wise leave requests.
+
 Approve or reject leave applications.
+
 Contributing
+
 Contributions are welcome! Please follow these steps:
 
 
