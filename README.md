@@ -1,5 +1,6 @@
 # Online-Outpass-Management-System
 This Outpass Management System is designed for educational institutions to manage student departures from campus. It ensures timely communication with wardens and authorities. The system supports multiple users simultaneously, offers high-level security to prevent unauthorized access, and is network-based for real-time updates.
+
 Leave Management System
 A web-based Leave Management System designed for students, wardens, and HODs to manage leave requests in a seamless and structured way.
 
@@ -66,53 +67,87 @@ Ensure you have the following installed on your system:
 **Install Dependencies:**
 
 -> bash
+
 ->Copy code
+
 ->npm install
+
 ->Configure Environment Variables:
 
 Create a .env file in the root directory.
 
-Add the following variables:
+**Add the following variables:**
 ->makefile
+
 ->Copy code
+
 ->DATABASE_URL=mongodb://localhost:27017/LeaveApp
+
 ->SESSION_SECRET=your_secret_key
 
 **Start the Server:**
 
 ->bash
+
 ->Copy code
+
 ->node app.js
+
 ->The server will start on http://localhost:3005.
 
-Access the Application: Open your browser and go to http://localhost:3005.
+**Access the Application**: Open your browser and go to http://localhost:3005.
 
 **Project Structure**
 bash
+
 Copy code
+
 LeaveApp/
+
 ├── models/          # Mongoose schemas for database collections
+
 │   ├── student.js
+
 │   ├── warden.js
+
 │   ├── hod.js
+
 │   ├── leave.js
+
 ├── public/          # Static files (CSS, images, JS)
+
 │   └── css/
+
 │       └── styles.css
+
 ├── routes/          # Route handlers for different roles
+
 │   ├── index.js
+
 │   ├── students.js
+
 │   ├── hods.js
+
 │   ├── wardens.js
+
 ├── views/           # EJS templates for rendering pages
+
 │   ├── register.ejs
+
 │   ├── profilestud.ejs
+
 │   ├── homestud.ejs
+
 ├── .env             # Environment variables (excluded in .gitignore)
+
 ├── .gitignore       # Files to ignore in version control
+
 ├── README.md        # Project documentation
+
 ├── app.js           # Main entry point of the application
+
 ├── package.json     # Project metadata and dependencies
+
 └── package-lock.json
 
 **Usage**
